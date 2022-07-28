@@ -19,8 +19,6 @@ var insert = function (array, rightIndex, value) {
         array[presentIndex + 1] = array[presentIndex];
     }
     array[presentIndex + 1] = value;
-    return array;
-
 };
 
 var array = [3, 5, 7, 11, 13, 2, 9, 6];
