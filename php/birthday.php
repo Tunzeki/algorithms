@@ -35,7 +35,7 @@ function birthday($s, $d, $m)
         * Set j = i. 
         * This is because for any integer in the array, you want to add m-1 integers 
         * that follow it to it using an inner loop. But you don't want to move the iterator i
-        * in the outer loop forward while doing this. Thus, set j = 1 and use j instead in the 
+        * in the outer loop forward while doing this. Thus, set j = i and use j instead in the 
         * inner loop
         * 
         * Inner loop: 
